@@ -7,6 +7,60 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+
+README Website "Beasiswaku"
+
+Deskripsi
+"Beasisku" adalah platform informasi beasiswa yang bertujuan memberikan informasi terbaru tentang beragam beasiswa untuk mahasiswa. Melalui situs ini, pengguna dapat mengetahui kriteria pendaftaran, persyaratan, serta mengajukan pendaftaran beasiswa dengan mudah.
+
+Fitur Utama
+Beranda
+Beranda menampilkan pilihan beasiswa yang tersedia dengan informasi singkat tentang masing-masing. Pengguna dapat mengklik setiap beasiswa untuk mendapatkan detail lebih lanjut.
+
+Daftar Beasiswa
+Halaman ini memungkinkan mahasiswa untuk mendaftar beasiswa. Pengguna diminta mengisi formulir pendaftaran dan mengunggah dokumen pendukung seperti sertifikat dan surat rekomendasi.
+
+Hasil Pendaftaran
+Di halaman ini, pengguna dapat melihat daftar pendaftar beasiswa beserta status verifikasinya. Grafik juga disediakan untuk menampilkan jumlah pendaftar beasiswa berdasarkan jenisnya.
+==================================================================================================================================================================================
+Cara Menggunakan:
+
+1. Instalasi:
+	-Instalasi menggunakan laravel versi terbaru (10)
+	-Pastikan Anda memiliki server web (contohnya, XAMPP) yang mendukung PHP dan MySQL.
+	-Buat database baru pada server Anda dan pastikan nama database yang anda buat sama dengan nama database yang ada dalam file .env
+
+
+2. Konfigurasi Koneksi Database:
+	-Buka file ".env".
+	-Ubah parameter koneksi database (host, username, password, nama database) sesuai dengan konfigurasi server Anda.
+	- kemudian buka terminal ketikan:
+	(php artisan migrate)
+	(php artisan db:seed)
+
+3. Run program 
+	-buka terminal lalu ketikan (php artisan serve)
+
+-Daftar Beasiswa:
+
+Klik "Daftar" di menu navigasi untuk mengakses halaman pendaftaran.
+Isi formulir pendaftaran dengan informasi yang diminta.
+Unggah berkas yang diperlukan dan klik "Submit" untuk mengirimkan formulir.
+Hasil Pendaftaran:
+
+Klik "Hasil" di menu navigasi untuk melihat daftar pendaftar beasiswa dan grafik jumlah pendaftar.
+==================================================================================================================================================================================
+
+
+Lisensi:
+Website ini dikembangkan oleh Panca Wibawa sebagai bagian dari tugas praktik demonstrasi untuk skema sertifikasi "Junior Web Developer".
+
+==================================================================================================================================================================================
+Kontak:
+Jika Anda memiliki pertanyaan atau masukan, silakan hubungi kami di pancawibawa22@gmail.com
+
+Terima kasih telah menggunakan "Beasiswaku"!
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
